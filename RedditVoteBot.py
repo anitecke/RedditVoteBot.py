@@ -9,11 +9,12 @@ from dotenv import load_dotenv
 load_dotenv()
 
 reddit = praw.Reddit(
-    client_id=os.environ.get("PRAW_CLIENT_ID"),
-    client_secret=os.environ.get("PRAW_CLIENT_SECRET"),
-    user_agent=os.environ.get("PRAW_USER_AGENT"),
-    username=os.environ.get("PRAW_USERNAME"),
-    password=os.environ.get("PRAW_PASSWORD")
+    client_id=os.environ.get("6kt-LEOjjhtrlIwTc_1H2A"),
+    client_secret=os.environ.get("jwHuieHV0INjfmIx17wNejX6t6hnKQ
+"),
+    user_agent=os.environ.get("redditdev scraper by u/NondenominationalYay"),
+    username=os.environ.get("NondenominationalYay"),
+    password=os.environ.get("SallyIsADentist88!")
 )
 
 def vote_on_comments(user, vote_type, already_done):
